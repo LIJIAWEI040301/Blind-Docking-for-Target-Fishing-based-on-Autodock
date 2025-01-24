@@ -1,12 +1,11 @@
 # Blind-Docking-for-Target-Fishing-based-on-Autodock
 An autodock-based blind docking Target Fishing script. Used when protein loci are not known. Can be run on multiple cores.
-# AutoDock-based Blind Docking Target Fishing Script
 
 ## 1. Introduction
 This is an AutoDock-based blind docking target fishing script used for docking when the protein binding sites are unknown. It can be run on multiple cores.
 
 ## 2. Principle
-The implementation principle of this script is to segment the receptor into multiple parts, perform docking separately, and output the score for each position.
+The implementation principle of this script is to automatically segment the receptor into multiple parts, perform docking separately, and output the score for each pose of each part.
 
 ## 3. Features
 - Automatically processes multiple protein files, generates grid files, and performs docking on different regions of each protein.
