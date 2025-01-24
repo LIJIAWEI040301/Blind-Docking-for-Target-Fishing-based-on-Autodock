@@ -13,9 +13,15 @@ The implementation principle of this script is to automatically segment the rece
 - Outputs docking results and scores to files.
 
 ## 4. Usage
-1. Preprocess the ligand and save it in PDBQT format.
-2. Preprocess the receptor files by breaking them down into individual chains, saving them in PDBQT format, and storing them in a folder.
-3. Set the following variables in the script:
+1. Installation needs to be secured before running:
+   - autodock vina 
+   - `os`
+   - `subprocess`
+   - `multiprocessing`
+   - `tqdm`
+2. Preprocess the ligand and save it in PDBQT format.
+3. Preprocess the receptor files and breaking them down into individual chains, saving them in PDBQT format, and storing them in a folder.
+4. Set the following variables in the script:
    - `ligand_file`: Path to the PDBQT file of the small molecule ligand
    - `protein_dir`: Directory path containing the protein PDBQT files
    - `output_dir`: Directory path for output results
@@ -24,7 +30,7 @@ The implementation principle of this script is to automatically segment the rece
    - `exhaustiveness`: Default is 8; it is recommended to read the explanation in the official documentation and adjust as needed
    - `processes`: Total number of cores to be used
 
-4. Run the script:
+5. Run the script:
    ```bash
    python dock.py
    ```
