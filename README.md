@@ -14,7 +14,7 @@ The implementation principle of this script is to automatically segment the rece
 
 ## 4. Usage
 1. Installation needs to be secured before running:
-   - autodock vina 
+   - autodock vina (add it to path)
    - `os`
    - `subprocess`
    - `multiprocessing`
