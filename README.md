@@ -25,7 +25,7 @@ The implementation principle of this script is to automatically segment the rece
    - `ligand_file`: Path to the PDBQT file of the small molecule ligand
    - `protein_dir`: Directory path containing the protein PDBQT files
    - `output_dir`: Directory path for output results
-   - `overlap`: Box overlap size (Å) (recommended to be adjusted based on the size of the small molecule ligand)
+   - `overlap`: Box overlap size (Å) (recommended to be adjusted based on the size of the small molecule ligand.For more details, refer to: [Here](https://github.com/LIJIAWEI040301/Use-computational-methods-to-roughly-estimate-the-size-of-small-molecule-compounds).)
    - `cpu`: Number of cores to be used per process (recommended to be 4, adjustable based on computer configuration)
    - `exhaustiveness`: Default is 8; it is recommended to read the explanation in the official documentation and adjust as needed
    - `processes`: Total number of cores to be used
