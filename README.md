@@ -37,3 +37,9 @@ The implementation principle of this script is to automatically segment the rece
 
 ## 5. License
 MIT License
+
+## 📫 联系方式
+
+如有错误，麻烦指出，谢谢！
+如有问题，欢迎联系我。
+youxiang：lijiawei_jn at yeah.net
